@@ -16,7 +16,6 @@ An encoder is a combinational circuit that converts binary information in the fo
 As an example, let’s consider Octal to Binary encoder. As shown in the following figure, an octal-to-binary encoder takes 8 input lines and generates 3 output lines.
 
 ![image](https://user-images.githubusercontent.com/36288975/171543588-bc0746df-a173-4b35-989e-5fb7d385fe8a.png)
-## Figure -01 3 to 8 Encoder 
 
 
 Implementation –
@@ -28,7 +27,6 @@ Hence, the encoder can be realised with OR gates as follows:
 
 
 ![image](https://user-images.githubusercontent.com/36288975/171543740-68403b82-aa93-4c98-9343-f32b14885a2e.png)
-## Figure -02 3 to 8 Encoder implenentation 
 
  ### Decoders 
 A decoder does the opposite job of an encoder. It is a combinational circuit that converts n lines of input into 2n lines of output.
@@ -50,12 +48,10 @@ D7 = X Y Z
 
 
 ![image](https://user-images.githubusercontent.com/36288975/171543978-ee2d0671-2846-40a1-8705-507fd6287a49.png)
-## Figure -03 8 to 3 Decoder 
-
 
 
 ![image](https://user-images.githubusercontent.com/36288975/171543866-5a6eace6-8683-49d7-9c4f-a7cb30ec3035.png)
-## Figure -04 8 to 3 Decoder implementation 
+
 
 ### Procedure
 ## Step 1:
@@ -79,6 +75,7 @@ Run the program and choose RTL viewer to get RTL realization.
 
 ### PROGRAM 
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
+
 Developed by: SNEHA BASYAL M
 RegisterNumber: 22008869
 ```
